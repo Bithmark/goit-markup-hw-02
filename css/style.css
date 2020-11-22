@@ -1,0 +1,193 @@
+/* Text:Roboto 
+font-weight: 500, 900, 700, 400,  */
+
+:root{
+--main-text: Roboto, sans-serif;
+--logo-text: Raleway, sans-serif;
+--black-color:#212121;
+--blue-color:#2196F3;
+--grey-color:#757575;
+--white-color:#FFFFFF;
+--address-link-color:rgba(255, 255, 255, 0.6);
+}
+
+body{
+font-family: var(--main-text);
+font-style: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo-header, .logo, .logo-footer {
+font-family: var(--logo-text);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--blue-color);
+text-decoration: none;
+}
+
+.logo{
+color: var(--black-color);
+}
+
+.navigation-list-item, {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.navigation-list-link, .header-mail, .address-list-link{
+color: var(--black-color);
+text-decoration: none;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail:hover,
+.header-mail:focus {
+color: var(--blue-color);
+}
+
+.header-tel{
+color: var(--grey-color);
+text-decoration: none;
+}
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: var(--white-color); */
+}
+
+
+.hero .hero-link{
+font-weight: 900;
+font-size: 16px;
+line-height: 1.875;
+/* align-items: center;
+text-align: center; */
+letter-spacing: 0.06em;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 200px;
+height: 50px;
+display: flex;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+background:var(--blue-color);
+color:var(--white-color);
+margin: auto;
+}
+
+.visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.object-list-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--black-color);
+}
+
+.object-list-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--grey-color);
+}
+
+.lessons-title, .command-main-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--black-color);
+}
+
+.command-title, .command-profession{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+/* text-align: center; */
+letter-spacing: 0.03em;
+color: var(--black-color)
+}
+
+.command-profession{
+font-weight: 400;
+color: var(--grey-color)
+}
+
+.logo-footer{
+    color: var(--white-color);
+}
+
+.address-list-link {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+/* color: var(--address-link-color); */
+}
+
+a[href^="https://goo.gl/maps/AcYd8yKNyFsXZPgV9"]{
+/* color: var(--white-color); */
+}
+
+.button-active{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--black-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.button-active:hover,
+.button-active:focus{
+    color: var(--white-color);
+    background: #2196F3;
+}
+
+.paper-list .paper-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
+color: var(--black-color);
+}
+
+.paper-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88px;
+letter-spacing: 0.03em;
+color:var(--grey-color);
+}
