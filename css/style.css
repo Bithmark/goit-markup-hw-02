@@ -34,12 +34,13 @@ text-decoration: none;
 color: var(--black-color);
 }
 
-.navigation-list-item, {
+.navigation-list-link, .header-mail, .header-tel {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
+
 
 .navigation-list-link, .header-mail, .address-list-link{
 color: var(--black-color);
@@ -70,7 +71,7 @@ text-transform: uppercase;
 
 
 .hero .hero-link{
-font-weight: 900;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
 /* align-items: center;
@@ -144,7 +145,7 @@ color: var(--grey-color)
 }
 
 .logo-footer{
-    color: var(--white-color);
+    /* color: var(--white-color); */
 }
 
 .address-list-link {
